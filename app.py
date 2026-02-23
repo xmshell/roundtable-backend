@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import time
 
+
 app = Flask(__name__)
 CORS(app)  # 允许跨域请求，这样小程序才能访问
 
